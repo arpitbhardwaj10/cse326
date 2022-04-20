@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* Created with https://www.css-gradient.com */
+background: #000000;
+color: white;
+
+}
+nav{
+  padding: 12px;
+}
+
+@keyframes ani {
+  0%{
+    opacity: 0;
+  }
+  70%{
+    opacity: .3;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+section{
+  background-image: url('https://cdn.pixabay.com/photo/2022/04/12/18/00/europe-7128531_960_720.jpg');
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0;
+}
+section h1{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 56px;
+}
+nav a{
+  text-decoration: none;
+  color: rgb(255, 255, 255) ;
+  font-weight: 600;
+  padding: 22px;
+  margin-top: 18  px;
+  font-size: 16px;
+}
+
+nav a:hover{
+  background-color: rgb(255, 255, 255);
+  transition: all .5s ease;
+  color: rgb(0, 0, 0)    ;
+}
+
+.cont{
+  width: 90%;
+  float: right;
+}
+
+div.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 580px;
+  /* Created with https://www.css-gradient.com */
+/* Created with https://www.css-gradient.com */
+background: #322072;
+color: white;
+background: -webkit-linear-gradient(top left, #322072, #000000);
+background: -moz-linear-gradient(top left, #322072, #000000);
+background: linear-gradient(to bottom right, #322072, #000000);
+animation: ani .5s ;}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.about{
+  display: flex;
+}
